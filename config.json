@@ -10,10 +10,10 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "",
+    "BOTNAME": "bot cua Logn",
     "PREFIX": "/",
     "ADMINBOT": [
-        "100069316502511",
+        "666081179",
         "ADMINBOT2"
     ],
     "DATABASE": {
