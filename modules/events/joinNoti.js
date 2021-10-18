@@ -14,7 +14,7 @@ module.exports.run = async function({ api, event, Users }) {
 	const { threadID } = event;
 	if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
 		api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "Nguyễn Mạnh Tuấn" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-		return api.sendMessage(`Kết nối thành công\nCảm mơn bạn đã sử dụng con bot này, lưu ý không spam tránh tình trạng die bot hãy là người dùng có ý thức\nMọi thắc mắc liên hệ Fb: https://www.facebook.com/MhTuanng203`, threadID);
+		return api.sendMessage(`Kết nối thành công\nCảm mơn bạn đã sử dụng con bot này, lưu ý không spam tránh tình trạng die bot hãy là người dùng có ý thức\nMọi thắc mắc liên hệ Fb: https://www.facebook.com/Founder.Logn.OFFCIAL`, threadID);
 	}
 	else {
 		try {
